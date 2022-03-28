@@ -1,4 +1,4 @@
-# Variational Bayesian Non-Linearized Logistic Regression
+# Bayesian Non-Linearized Logistic Regression
 
 In a previous coursework task for the Inference module of the Part IIA Engineering Tripos (course) at the University of Cambridge, we were given a 2-dimensional dataset with binary output data representing the class to which a datapoint belongs. We implemented a logistic regression classifier (by hand, no scikit-learn), but since the required decision boundary was far from linear, it did not perform very well. And so we expanded the input feautures through Gaussian radial basis functions of varying radius, and this performed well, achieving categorical accuracy of up to 90%.
 
